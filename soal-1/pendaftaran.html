@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChallenge 2024 - Pendaftaran</title>
+    <link rel="stylesheet" href="pendaftaran.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">CodeChallenge 2024</div>
+            <nav>
+                <a href="index.html">Beranda</a>
+
+        <!-- KENGUNAAN AKTIF UNTUK HIGHLIGHT PAGE NYA -->
+                <a href="pendaftaran.html" class="active">Pendaftaran</a>
+                <a href="faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ISI STANDAR EMAIL  PASSWORD DLL -->
+    <main>
+        <div class="form-container">
+            <h2>Form Pendaftaran</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama">
+                </div>
+
+                <div class="form-group">
+                    <label for="nisn">NISN</label>
+                    <input type="text" id="nisn" name="nisn">
+                </div>
+
+                <div class="form-group">
+                    <label for="asal-sekolah">Asal Sekolah</label>
+                    <input type="text" id="asal-sekolah" name="asal-sekolah">
+                </div>
+
+               <!-- //fitur dropdown -->
+                <div class="form-group">
+                    <label for="kelas">Kelas</label>
+                    <select id="kelas" name="kelas">
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="hp">No. HP</label>
+                    <input type="text" id="hp" name="hp">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat Rumah</label>
+                    <textarea id="alamat" name="alamat" rows="3"></textarea>
+                </div>
+
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <p>Copyright 2024</p>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

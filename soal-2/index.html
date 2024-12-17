@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Rata-Rata Tinggi Badan</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- menghitung lewat id -->
+    <h1>Hitung Rata-Rata Tinggi Badan Siswa</h1>
+    <form onsubmit="event.preventDefault(); hitungRataRata();">
+        <label for="siswa1">Tinggi Badan Siswa 1 (cm):</label>
+        <input type="number" id="siswa1" required><br><br>
+        
+        <label for="siswa2">Tinggi Badan Siswa 2 (cm):</label>
+        <input type="number" id="siswa2" required><br><br>
+        
+        <label for="siswa3">Tinggi Badan Siswa 3 (cm):</label>
+        <input type="number" id="siswa3" required><br><br>
+        
+        <label for="siswa4">Tinggi Badan Siswa 4 (cm):</label>
+        <input type="number" id="siswa4" required><br><br>
+        
+        <label for="siswa5">Tinggi Badan Siswa 5 (cm):</label>
+        <input type="number" id="siswa5" required><br><br>
+        
+        <button type="submit">Hitung Rata-Rata</button>
+    </form>
+    <h2 id="hasil"></h2>
+</body>
+</html>
